@@ -4,7 +4,7 @@
 
 var editor;
 
-var flmml = new FlMMLonHTML5();
+var flmml = new FlMML();
 flmml.oncompilecomplete = function () {
 	$("#warnings").text(flmml.getWarnings());
 };
